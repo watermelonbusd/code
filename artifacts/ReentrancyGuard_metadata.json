@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WatermelonBUSD.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WatermelonBUSD.sol": {
+			"keccak256": "0x2da30e1c67e12a23ead07285d8f7c50927e83b763d7cd7a559d901157bd20e37",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://df6574faf6727b0a587ae616fb9c99521ec8c0d12506e4aa6168592d418e9345",
+				"dweb:/ipfs/QmUZSeMpxj6Jzy6DCdFDbgFxrLnd1XEVq9g9PqjSPgurEV"
+			]
+		}
+	},
+	"version": 1
+}
