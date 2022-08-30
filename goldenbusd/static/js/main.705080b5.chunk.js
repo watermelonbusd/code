@@ -1498,22 +1498,22 @@
                                         })
                                     })]
                                 }), Object(T.jsx)("a", {
-                                    href: "https://pancakeswap.finance/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+                                    href: "https://goldenbusdlotto.watermelonbusd.com",
                                     className: "btn btn-primary btn-lg btnd",
                                     style: {
                                         background: "black",
                                         color: "#FFD700",
                                         border: "1px solid #fff"
                                     },
-                                  //  children: "Lottery"
-                             //   }), Object(T.jsx)("a", {
-                              //      href: "https://pancakeswap.finance/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-                                //    className: "btn btn-primary btn-lg btnd",
-                                //    style: {
-                                 //       background: "black",
-                                  //      color: "#FFD700",
-                                   //     border: "1px solid #fff"
-                                 //   },
+                                    children: "Lotto"
+                                }), Object(T.jsx)("a", {
+                                    href: "https://pancakeswap.finance/swap?outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56",
+                                    className: "btn btn-primary btn-lg btnd",
+                                    style: {
+                                        background: "black",
+                                        color: "#FFD700",
+                                        border: "1px solid #fff"
+                                    },
                                     children: "BUY BUSD"
                                 }), Object(T.jsxs)("button", {
                                     href: "https://pancakeswap.finance/swap?outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56",

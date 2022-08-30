@@ -83,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WatermelonBUSD.sol": "Ownable"
+			"GoldenBUSDLotto.sol": "Ownable"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -97,12 +97,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"WatermelonBUSD.sol": {
-			"keccak256": "0x2da30e1c67e12a23ead07285d8f7c50927e83b763d7cd7a559d901157bd20e37",
-			"license": "UNLICENSED",
+		"GoldenBUSDLotto.sol": {
+			"keccak256": "0xe18331b1797715e44948edc2459153dba0322462a00ad7cd598a204f6537fb21",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://df6574faf6727b0a587ae616fb9c99521ec8c0d12506e4aa6168592d418e9345",
-				"dweb:/ipfs/QmUZSeMpxj6Jzy6DCdFDbgFxrLnd1XEVq9g9PqjSPgurEV"
+				"bzz-raw://04fc97fe9ece248ab4899e16e40842feb144868b1a3b4653521600bd9a28f59e",
+				"dweb:/ipfs/Qma9294pFAMDSS1pdSEwnHQotvHqHtxi3QCZgw5jWePVyU"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"WatermelonBUSDLottery.sol": "SafeMath"
+			"GoldenBUSDLotto.sol": "SafeMath"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"WatermelonBUSDLottery.sol": {
-			"keccak256": "0xe5d793413416dfafe5d65a195271b105cd9e9d337cfa889306a4a18ae0001311",
+		"GoldenBUSDLotto.sol": {
+			"keccak256": "0xe18331b1797715e44948edc2459153dba0322462a00ad7cd598a204f6537fb21",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ebf6c5e53e635984d5588c8856d06e35a50522e17a34869d62b1be4f0dad4d9d",
-				"dweb:/ipfs/QmZj6mrdbj1ZytrG7g5z9sA9DK672nLrW9t9HQQRtbKUXR"
+				"bzz-raw://04fc97fe9ece248ab4899e16e40842feb144868b1a3b4653521600bd9a28f59e",
+				"dweb:/ipfs/Qma9294pFAMDSS1pdSEwnHQotvHqHtxi3QCZgw5jWePVyU"
 			]
 		}
 	},
