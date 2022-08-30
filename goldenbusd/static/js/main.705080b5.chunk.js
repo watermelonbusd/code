@@ -1497,7 +1497,7 @@
                                             children: "TELEGRAM"
                                         })
                                     })]
-                                }),/*  Object(T.jsx)("a", {
+                                }), Object(T.jsx)("a", {
                                     href: "https://goldenbusdlotto.watermelonbusd.com",
                                     className: "btn btn-primary btn-lg btnd",
                                     style: {
@@ -1506,7 +1506,7 @@
                                         border: "1px solid #fff"
                                     },
                                     children: "Lotto"
-                                }), */ Object(T.jsx)("a", {
+                                }), Object(T.jsx)("a", {
                                     href: "https://pancakeswap.finance/swap?outputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56",
                                     className: "btn btn-primary btn-lg btnd",
                                     style: {
