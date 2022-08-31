@@ -6,65 +6,15 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "Approval",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
-					}
-				],
-				"name": "Transfer",
-				"type": "event"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "owner",
+						"name": "_owner",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "spender",
+						"name": "_spender",
 						"type": "address"
 					}
 				],
@@ -72,7 +22,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "remaining",
 						"type": "uint256"
 					}
 				],
@@ -124,7 +74,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "totalSupply",
+				"name": "decimals",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -133,6 +83,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -187,6 +144,19 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "wad",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -202,7 +172,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"GoldenBUSDLotto.sol": "IERC20"
+			"WatermelonBUSDDice.sol": "IERC20"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -216,12 +186,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"GoldenBUSDLotto.sol": {
-			"keccak256": "0xe18331b1797715e44948edc2459153dba0322462a00ad7cd598a204f6537fb21",
+		"WatermelonBUSDDice.sol": {
+			"keccak256": "0x9bfd541dfff2f5802382275b6550d2fe1efdc0a7f230bd7e00b0061b6ef716c8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://04fc97fe9ece248ab4899e16e40842feb144868b1a3b4653521600bd9a28f59e",
-				"dweb:/ipfs/Qma9294pFAMDSS1pdSEwnHQotvHqHtxi3QCZgw5jWePVyU"
+				"bzz-raw://0f45f4c53ff2cfbf6c9d771dc2d78af078a249b99262d43260d2d55bb5b4ccb9",
+				"dweb:/ipfs/QmTzuKoQQYZ9VWoSg8KhJNubyvb1v2xsgQQnw6SYvQFvJL"
 			]
 		}
 	},

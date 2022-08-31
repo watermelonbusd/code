@@ -20,15 +20,11 @@
 			"linkReferences": {},
 			"autoDeployLib": true
 		},
-		"görli:5": {
+		"goerli:5": {
 			"linkReferences": {},
 			"autoDeployLib": true
 		},
 		"Custom": {
-			"linkReferences": {},
-			"autoDeployLib": true
-		},
-		"goerli:5": {
 			"linkReferences": {},
 			"autoDeployLib": true
 		}
@@ -52,7 +48,44 @@
 			"sourceMap": ""
 		},
 		"gasEstimates": null,
-		"methodIdentifiers": {}
+		"methodIdentifiers": {
+			"rawFulfillRandomWords(uint256,uint256[])": "1fe543e3"
+		}
 	},
-	"abi": []
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "have",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "want",
+					"type": "address"
+				}
+			],
+			"name": "OnlyCoordinatorCanFulfill",
+			"type": "error"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "requestId",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256[]",
+					"name": "randomWords",
+					"type": "uint256[]"
+				}
+			],
+			"name": "rawFulfillRandomWords",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
 }
